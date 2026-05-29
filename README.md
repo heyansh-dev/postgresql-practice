@@ -1,39 +1,70 @@
 # PostgreSQL Practice Repository
 
-This repository contains my PostgreSQL learning journey, practice exercises, and mini database projects.
+This repository documents my PostgreSQL learning journey, SQL practice exercises, database schemas, and mini-projects as I transition into Data Analytics and AI-powered workflows.
+
+---
 
 ## Topics Covered
-- Database creation
-- Table creation
-- Constraints
-- Data types
-- Insert queries
-- Filtering and querying
-- SQL practice problems
+
+* Database Creation
+* Table Creation
+* CRUD Operations
+* SQL Constraints
+* Data Types
+* Filtering & Querying
+* Foreign Keys
+* SQL Practice Problems
 
 ---
 
-## Mini Project 1 — Flipkart Product Database
+## Mini Project — Flipkart Product Database
 
-Created a sample product database for an e-commerce platform using PostgreSQL.
+Created a sample e-commerce product database named `flipkart_db` using PostgreSQL.
 
 ### Features Implemented
-- Serial primary key
-- SKU code handling
-- Price constraints
-- Stock quantity validation
-- Default availability status
-- Category validation using NOT NULL
-- Date tracking fields
 
-### Concepts Used
-- CREATE DATABASE
-- CREATE TABLE
-- SERIAL
-- VARCHAR
-- CHECK constraints
-- DEFAULT values
-- INSERT INTO
+* Serial Primary Key
+* Unique SKU Code Handling
+* Price Validation using CHECK Constraints
+* Stock Quantity Validation
+* Default Product Availability Status
+* Category Validation using NOT NULL
+* Date Tracking Fields
 
 ---
-More practice projects and SQL queries will be added consistently.
+
+## Concepts Used
+
+* `CREATE DATABASE`
+* `CREATE TABLE`
+* `SERIAL`
+* `VARCHAR`
+* `CHECK`
+* `DEFAULT`
+* `PRIMARY KEY`
+* `UNIQUE`
+* `INSERT INTO`
+
+---
+
+## Example Query
+
+```sql
+SELECT *
+FROM products
+WHERE price > 5000;
+```
+
+---
+
+## Repository Structure
+
+* `day-01-basics/`
+* `day-02-constraints/`
+* `day-03-filtering-sorting/`
+* `day-04-joins/`
+
+---
+
+More SQL practice queries, analytics-focused exercises, and mini-projects will be added consistently as I continue building practical database and analytics skills.
+
